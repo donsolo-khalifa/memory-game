@@ -64,17 +64,26 @@ session_start();
     <form action="gameplease.php" id="scoreform" method="post">
       <label for="counter">
         time
+        <br>
         <input id="counter" name="counter" readonly>
       </label>
-
+      <br>
       <label for="best">
         your best
+        <br>
+
         <input id="best" name="best" value="<?php echo $best ?>" readonly>
       </label>
+      <br>
+
       <label for="rank">
         you are ranked
+        <br>
+
         <input id="rank" name="rank" value="<?php echo $rank ?>" readonly>
       </label>
+      <br>
+
       <label for="uploadscore">
         <input id="uploadscore" name="uploadscore" readonly hidden>
       </label>
