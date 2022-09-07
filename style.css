@@ -82,6 +82,18 @@ section {
         perspective: 800px;
         grid-gap: 1rem;
     }
+   
+}
+@media (max-width:819px) {
+    #info, #scoreform{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
 }
 @media (max-height:620px) {
     input{
